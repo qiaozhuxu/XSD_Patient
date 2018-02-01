@@ -3,7 +3,6 @@
 	<element name="patient" type="tns:Patient"/>
 	<complexType name="Patient">
 		<sequence>
-			<element name="id" type="tns:ID" minOccurs="1"/>
 			<element name="name" type="tns:String15Chars"/>
 			<element name="age" type="int"/>
 			<element name="dob" type="date"/>
@@ -12,6 +11,7 @@
 			<element name="phone" type="string"/>
 			<element name='payment' type="tns:PaymentType"/>
 		</sequence>
+		<attribute name='id' type="string" />
 	</complexType>
 	
 	<complexType name="PaymentType">
