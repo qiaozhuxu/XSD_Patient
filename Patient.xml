@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:patient xmlns:tns="http://www.qiaozhu.xsdtesting/Patient" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.qiaozhu.xsdtesting/Patient Patient.xsd ">
+  <tns:id>1</tns:id>
+  <tns:name>tns:name</tns:name>
+  <tns:age>0</tns:age>
+  <tns:dob>2001-01-01</tns:dob>
+  <tns:email>tns:email</tns:email>
+  <tns:email>tns:email</tns:email>
+  <tns:email>tns:email</tns:email>
+  <tns:gender>M</tns:gender>
+  <tns:phone>tns:phone</tns:phone>
+  <tns:payment>
+    <tns:insurance>
+    		<tns:provider>Blue cross</tns:provider>
+    		<tns:limit> 10000 </tns:limit>
+    </tns:insurance>
+  </tns:payment>
+</tns:patient>
